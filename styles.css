@@ -10,3 +10,86 @@ body {
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
 }
+
+input, button {
+    outline: none;
+}
+
+.content {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+/* HEADER */
+
+header#main-header{
+    height: 46px;
+    background-color: #FFF;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+header#main-header .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+header#main-header .content nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header#main-header .content nav ul li {
+    display: flex;
+    font-size: 13px;
+    color: #667580;
+    font-weight: bold;
+    align-items: center;
+    margin-left: 30px;
+}
+
+header#main-header .content nav ul li img {
+    margin-right: 7px;
+}
+
+header#main-header .content nav ul li:first-child {
+    margin-left: 0;
+}
+
+header#main-header .content .side {
+    display: flex;
+}
+
+header#main-header .content .side img {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    margin: 0 15px;
+}
+
+header#main-header .content .side input {
+    width: 220px;
+    background: #F5F8FA url('/images/search.svg') no-repeat 190px center;
+    border: 1px solid #E6ECF0;
+    height: 34px;
+    padding: 0 30px 0 12px;
+    border-radius: 16px;
+    color: #667581;
+    font-size: 12px;
+}
+
+header#main-header .content .side button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: #3bb9e3;
+    width: 90px;
+    height: 34px;
+    border-radius: 16px;
+    border: 0;
+}
