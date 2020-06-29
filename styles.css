@@ -190,3 +190,107 @@ header#main-header .content .side button {
     margin-right: 20px;
 }
 
+/* LEFT SIDEBAR MAIN PAGE */
+ 
+.wrapper-content {
+    display: flex;
+}
+
+.wrapper-content .profile {
+    width: 260px;
+}
+
+.wrapper-content .profile .avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    margin-top: -130px;
+}
+
+.wrapper-content .profile h1 {
+    font-size: 21px;
+    color: #1F2226;
+    margin-top: 10px;
+}
+
+.wrapper-content .profile span {
+    font-size: 14px;
+    color: #53626C;
+    margin-top: 10px;
+}
+
+.wrapper-content .profile p {
+    font-size: 14px;
+    color: #1F2226;
+    margin-top: 15px;
+}
+
+.wrapper-content .profile ul {
+    margin-top: 20px;
+    list-style: none;
+}
+
+.wrapper-content .profile .list li {
+    font-size: 14px;
+    color: #657786;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.wrapper-content .profile .list li:first-child {
+    margin-top: 0;
+}
+
+.wrapper-content .profile li img {
+    margin-right: 10px;
+}
+
+.wrapper-content .profile .widget {
+    margin-top: 30px;
+}
+
+.wrapper-content .profile .widget strong {
+    font-weight: normal;
+    color: #3bb9e3;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.wrapper-content .profile .widget strong img {
+    margin-right: 5px;
+}
+
+.wrapper-content .profile .followers ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+
+.wrapper-content .profile .followers ul li {
+    width: 45px;
+    height: 45px;
+    background: #D0D5D9;
+    flex: 1 0 auto;
+    border-radius: 50%;
+    margin: 0px 5px 10px 0px;
+}
+
+.wrapper-content .profile .images ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wrapper-content .profile .images ul li {
+    width: 80px;
+    height: 80px;
+    background: #D0D5D9;
+    flex-shrink: 0;
+    border-radius: 5px;
+    margin: 0px 5px 5px 0px;
+}
